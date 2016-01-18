@@ -15,7 +15,7 @@
  */
 
 html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-family: 'Architects Daughter', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -43,7 +43,7 @@ html, body {
 .mdl-demo .mdl-layout__tab-bar-container {
   height: 64px;
   margin: auto;
-  width: 55%;
+  width: 100%;
 }
 .mdl-demo .mdl-layout__tab-bar {
   padding: 0;
@@ -61,7 +61,7 @@ html, body {
   height: 4px;
 }
 .mdl-demo main > .mdl-layout__tab-panel {
-  padding: 8px;
+  padding: 48px;
   padding-top: 48px;
 }
 .mdl-demo .mdl-card {
@@ -86,7 +86,7 @@ html, body {
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding: 0;
-  color: inherit;
+  color: black;
   width: calc(100% - 80px);
 }
 .mdl-demo.mdl-demo .mdl-card__supporting-text h4 {
@@ -260,7 +260,7 @@ html, body {
 }
 
 #home {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 #about {
@@ -278,4 +278,12 @@ html, body {
 .icon {
   height: 30px;
   width: 30px;
+}
+
+.book-container{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  align-content: flex-start;
+
 }
